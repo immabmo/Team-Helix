@@ -26,7 +26,8 @@ public String speak()
 	if(serviced){
 	return("The vehicle was serviced at " +servicedat);
 }else{
-	return "The vehicle has not yet been serviced.";
+	return "Error: Vehicle must be serviced first" +
+			"The vehicle has not yet been serviced.";
 	}
 }
 
