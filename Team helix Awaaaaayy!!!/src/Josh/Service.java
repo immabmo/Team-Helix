@@ -21,7 +21,7 @@ public Service()
 	servicedat=0;	
 }
 
-public String speak()
+public String speak() 
 {
 	if(serviced){
 	return("The vehicle was serviced at " +servicedat);
